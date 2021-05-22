@@ -70,6 +70,13 @@ $valor2 = (int) $dado1p + (int) $dado2p;
                 }
             }
 
+            var dado1c = Math.random() * (6 - 1) + 1;
+            var dado2c = Math.random() * (6 - 1) + 1;
+            var dado1p = Math.random() * (6 - 1) + 1;
+            var dado2p = Math.random() * (6 - 1) + 1;
+            
+            var valor1 = dado1c+dado2c;
+            var valor2 = dado1p+dado2p;
             
         </script>
         <div>
