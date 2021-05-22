@@ -1,0 +1,61 @@
+#divprincipal{
+    border:1px solid #e0e0e0;
+    width: 2280px;
+    height:1600px;
+    position:relative;
+    background-image: url(../IMG/doisdados.jpg); 
+}
+
+
+#divjogador{
+    display: inline-block;
+     border:1px solid #e0e0e0;
+     width:400px;
+     height:800px;
+    
+}
+
+#divcomputador{
+    display: inline-block;
+     border:1px solid #e0e0e0;
+     width:400px;
+     height:800px;
+    
+}
+
+#title{
+    text-align: center;
+    font-family: arial;
+    font-size:180px;
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+
+#lblJogar{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-size:100px;
+}
+
+
+#btnJogar{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-size:70px;
+
+}
+
+
