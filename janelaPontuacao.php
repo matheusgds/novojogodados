@@ -8,6 +8,24 @@
         <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     </head>
     <body>
+        
+        <div>
+            <h2 id="divpontos"></h2>
+        </div>
+
+        <div name="divjogador" id="divjogador">
+            <h1> PESSOA </h1>
+            <div>
+
+
+            </div>
+        </div>
+        <div name="divcomputador" id="divcomputador">
+            <h1> COMPUTADOR </h1>
+
+        </div>
+
+
         <script type="text/javascript">
             function returnURLIMG(numero) {
                 switch (numero) {
@@ -50,29 +68,11 @@
                 } else if (valor1 > valor2) {
                     document.getElementById("divpontos").innerHTML = "Computador Ganhou!";
                 } else {
-                    document.getElementById("divpontos").innerHTML = "Pessoa Jogadora Ganhou!";
+                    document.getElementById("divpontos").innerHTML = "Pessoa Ganhou!";
                 }
             }
             
             window.onload = pegarvalor();
         </script>
-        <div>
-            <h2 id="divpontos">Pontuação: </h2>
-        </div>
-
-        <div name="divjogador" id="divjogador">
-            <h1> PESSOA </h1>
-            <div>
-
-
-            </div>
-        </div>
-        <div name="divcomputador" id="divcomputador">
-            <h1> COMPUTADOR </h1>
-
-        </div>
-
-
-
     </body>
 </html>
