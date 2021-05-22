@@ -43,6 +43,35 @@ $valor2 = (int) $dado1p + (int) $dado2p;
         <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     </head>
     <body>
+        <script>
+            function returnURLIMG(numero) {
+                switch (numero) {
+                    case 1:
+                        return "IMG/1.png";
+                        break;
+                    case 2:
+                        return "IMG/2.png";
+                        break;
+                    case 3:
+                        return "IMG/3.png";
+                        break;
+                    case 4:
+                        return "IMG/4.png";
+                        break;
+                    case 5:
+                        return "IMG/5.png";
+                        break;
+                    case 6:
+                        return "IMG/6.png";
+                        break;
+                    default :
+                        return "";
+                        break;
+                }
+            }
+
+            
+        </script>
         <div>
             <h2> <?php
                 if ($valor1 == $valor2):
